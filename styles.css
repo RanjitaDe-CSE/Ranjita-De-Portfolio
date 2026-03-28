@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+
+.navbar {
+    /*position: fixed;*/
+    top: 0;
+    /*width: 100%;*/
+    /*background: #1437a8a3;*/
+    background: #4060b9;
+    color: white;
+
+
+    align-items:center;
+    padding: 15px 30px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin: 0 70px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+}
+
+nav ul li a:hover {
+    color: black;
+} 
+
+
+.hero {
+    height: 50vh;
+    background: linear-gradient(to right, #50d0ed, #4060b9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #333;
+}
+
+
+section {
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin: 20px;
+    background: rgb(66, 133, 244);
+    border-radius: 10px;
+    background: linear-gradient(to right, #50d0ed, #4060b9);
+    scroll-margin-top: 65px;
+}
+section h2{
+    text-align:center;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.project-card {
+    padding: 0px;
+    margin: 10px;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.project-card button{
+    border:20px;
+    background: blue;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    max-width: 400px; 
+    margin: 0 auto;
+    background-color:rgb(95, 171, 242);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 25px;
+       
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: blue;
+    color: white;
+}
+
+button:hover {
+    background: #333;
+}
+
+
+footer {
+    background: #4060b9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+.social-icons i:hover {
+    color:black;
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: row;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
