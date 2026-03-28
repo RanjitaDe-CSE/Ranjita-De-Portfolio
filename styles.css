@@ -17,8 +17,6 @@ body {
     /*background: #1437a8a3;*/
     background: #4060b9;
     color: white;
-
-
     align-items:center;
     padding: 15px 30px;
 }
@@ -160,7 +158,8 @@ footer {
 
 @media (max-width: 768px) {
     .navbar ul {
-        flex-direction: column;
+        flex-direction: row;
+        padding: 2px 3px;
     }
 
     .project-container {
