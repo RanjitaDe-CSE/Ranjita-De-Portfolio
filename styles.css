@@ -158,8 +158,7 @@ footer {
 
 @media (max-width: 768px) {
     .navbar ul {
-        flex-direction: row;
-        padding: 2px 3px;
+        flex-direction: column;
     }
 
     .project-container {
