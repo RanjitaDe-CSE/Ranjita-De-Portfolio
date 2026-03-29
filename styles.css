@@ -221,10 +221,6 @@ body{
 
 @media (min-width: 1600px) {
 
-    body {
-        max-width: 1400px;
-        margin: auto;
-    }
 
     .hero h1 {
         font-size: 3rem;
