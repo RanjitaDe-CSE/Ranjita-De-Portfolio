@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 
@@ -156,13 +157,79 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 576px) {
+    body{
+        font-size: xx-large;
+    }
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .navbar ul {
         flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        padding: 10px 10px;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
     }
 
     .project-container {
         flex-direction: column;
         align-items: center;
     }
+
+    .project-card {
+        width: 90%;
+    }
 }
+
+@media (min-width: 577px) and (max-width: 992px) {
+body{
+    font-size: x-large;
+}
+    .navbar ul {
+        gap: 15px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 30px;
+    }
+
+    .project-container {
+        justify-content: center;
+    }
+
+    .project-card {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1600px) {
+
+    body {
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .project-card {
+        width: 280px;
+    }
+
+    section {
+        padding: 60px;
+    }
+}
+
