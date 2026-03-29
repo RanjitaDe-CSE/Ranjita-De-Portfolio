@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    box-sizing: border-box;
+    
 }
 
 
@@ -156,7 +156,9 @@ footer {
     color:black;
 }
 
-
+*{
+    box-sizing: border-box;
+}
 
 @media (max-width: 576px) {
     body{
@@ -195,6 +197,10 @@ footer {
 body{
     font-size: x-large;
 }
+.navbar {
+        flex-direction: column;
+        text-align: center;
+    }
     .navbar ul {
         gap: 15px;
     }
