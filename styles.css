@@ -1,15 +1,12 @@
 html {
     scroll-behavior: smooth;
-    
 }
-
 
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: white;
 }
-
 
 .navbar {
     /*position: fixed;*/
@@ -72,7 +69,6 @@ nav ul li a:hover {
     background: #333;
 }
 
-
 section {
     padding: 40px;
     padding-top: 20px;
@@ -86,7 +82,6 @@ section {
 section h2{
     text-align:center;
 }
-
 
 .project-container {
     display: flex;
@@ -193,7 +188,7 @@ footer {
     }
 }
 
-@media (min-width: 577px) and (max-width: 992px) {
+@media (max-width: 992px) {
 body{
     font-size: x-large;
 }
@@ -221,9 +216,8 @@ body{
 
 @media (min-width: 1600px) {
 
-
     .hero h1 {
-        font-size: 3rem;
+        font-size: larger;
     }
 
     .project-card {
