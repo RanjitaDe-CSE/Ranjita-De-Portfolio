@@ -20,7 +20,9 @@ Technologies Used:
 - FontAwesome Icons
 
 Purpose:
+
 To demonstrate frontend development skills including layout, styling, responsiveness, and interactivity.
 
 Author
+
 Ranjita De
