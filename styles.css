@@ -5,33 +5,29 @@ html {
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+   
     background-color: white;
 }
 
 .navbar {
-    /*position: fixed;*/
     top: 0;
-    /*width: 100%;*/
-    /*background: #1437a8a3;*/
+    width: 100%;
     background: #4060b9;
     color: white;
     align-items:center;
-    padding: 15px 30px;
+    padding: 15px 15px;
 }
-
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 nav ul li {
-    margin: 0 70px;
-    
+    margin: 10px 50px;
 }
 
 nav ul li a {
@@ -46,29 +42,6 @@ nav ul li a:hover {
     color: black;
 } 
 
-
-.hero {
-    height: 50vh;
-    background: linear-gradient(to right, #50d0ed, #4060b9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.hero button {
-    padding: 10px 20px;
-    border: none;
-    background: blue;
-    color: white;
-    cursor: pointer;
-}
-
-.hero button:hover {
-    background: #333;
-}
-
 section {
     padding: 40px;
     padding-top: 20px;
@@ -79,19 +52,36 @@ section {
     background: linear-gradient(to right, #50d0ed, #4060b9);
     scroll-margin-top: 65px;
 }
-section h2{
+section:hover {
+    transform:translateY(-3px);
+    transition: 0.5s;
+}
+section h1,h2{
     text-align:center;
+}
+
+#home{
+    margin-top: 40px;
+}
+.home-content{
+    text-align: center;
+}
+.home-content button {
+    padding: 10px 20px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 .project-card {
-    padding: 0px;
+
     margin: 10px;
     border: 3px solid #ccc;
     border-radius: 3px;
@@ -99,11 +89,10 @@ section h2{
     text-align: center;
 }
 
-
 .project-card button{
     border:20px;
     background: blue;
-    width: 100%;
+    width: 100%    
 }
 
 form {
@@ -118,8 +107,7 @@ form {
 
 input, textarea {
     padding: 10px;
-    margin-bottom: 25px;
-       
+    margin-bottom: 25px;     
 }
 
 button {
@@ -128,7 +116,6 @@ button {
     background: blue;
     color: white;
 }
-
 button:hover {
     background: #333;
 }
@@ -139,10 +126,11 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 40px;
 }
 
 .social-icons i {
-    font-size: 30px;
+    font-size: 2rem;
     margin: 10px;
     color: white;
 }
@@ -151,6 +139,67 @@ footer {
     color:black;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .home-content h1 {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+
+    .project-card {
+        max-width: 300px;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .project-card {
+        width: 45%;
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 1600px) {
+
+    body {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 60px;
+    }
+}
+
+
+/*
 *{
     box-sizing: border-box;
 }
@@ -166,10 +215,10 @@ footer {
 
     .navbar ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 
-    .hero {
+    #home {
         padding: 10px 10px;
     }
 
@@ -197,12 +246,12 @@ body{
         text-align: center;
     }
     .navbar ul {
-        gap: 15px;
+        gap: 10px;
     }
 
     .hero {
         height: auto;
-        padding: 30px;
+        padding: 20px;
     }
 
     .project-container {
@@ -210,9 +259,41 @@ body{
     }
 
     .project-card {
-        width: 75%;
+        width: 90%;
     }
 }
+
+@media (max-width: 1200px) {
+body{
+    font-size: medium;
+}
+.navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar ul {
+        gap: 1px;
+    }
+section{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 4px;
+    padding-bottom: 10px;
+}
+    #home {
+        height: auto;
+        padding: 5px;
+    }
+
+    .project-container {
+        justify-content: center;
+    }
+
+    .project-card {
+        width: 80%;
+    }
+}
+
 
 @media (min-width: 1600px) {
 
@@ -228,4 +309,3 @@ body{
         padding: 60px;
     }
 }
-
