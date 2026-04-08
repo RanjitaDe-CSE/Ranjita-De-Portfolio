@@ -5,7 +5,6 @@ html {
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-   
     background-color: white;
 }
 
@@ -79,7 +78,6 @@ section h1,h2{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .project-card {
     margin: 10px;
     border: 3px solid #ccc;
@@ -87,7 +85,6 @@ section h1,h2{
     width: 200px;
     text-align: center;
 }
-
 .project-card button{
     border:20px;
     background: blue;
@@ -100,15 +97,12 @@ form {
     max-width: 400px; 
     margin: 0 auto;
     background-color:rgb(95, 171, 242);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);   
 }
-
 input, textarea {
     padding: 10px;
     margin-bottom: 25px;     
 }
-
 button {
     padding: 10px;
     border: none;
@@ -136,7 +130,6 @@ footer {
     margin: 10px;
     color: white;
 }
-
 .social-icons i:hover {
     color:black;
 }
@@ -157,8 +150,8 @@ footer {
     }
 
     section {
-        margin: 10px;
-        padding: 20px;
+        margin: 20px;
+        padding: 10px;
     }
     .home-content{
         align-items: center;
@@ -172,7 +165,6 @@ footer {
         max-width: 300px;
     }
 }
-
 
 @media (max-width: 992px) {
 
@@ -195,118 +187,6 @@ footer {
 
     .home-content h1 {
         font-size: 2.5rem;
-    }
-
-    section {
-        padding: 60px;
-    }
-}
-
-
-/*
-*{
-    box-sizing: border-box;
-}
-
-@media (max-width: 576px) {
-    body{
-        font-size: xx-large;
-    }
-    .navbar {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    #home {
-        padding: 10px 10px;
-    }
-
-    section {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .project-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project-card {
-        width: 90%;
-    }
-}
-
-@media (max-width: 992px) {
-body{
-    font-size: x-large;
-}
-.navbar {
-        flex-direction: column;
-        text-align: center;
-    }
-    .navbar ul {
-        gap: 10px;
-    }
-
-    .hero {
-        height: auto;
-        padding: 20px;
-    }
-
-    .project-container {
-        justify-content: center;
-    }
-
-    .project-card {
-        width: 90%;
-    }
-}
-
-@media (max-width: 1200px) {
-body{
-    font-size: medium;
-}
-.navbar {
-        flex-direction: column;
-        text-align: center;
-    }
-    .navbar ul {
-        gap: 1px;
-    }
-section{
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    padding: 4px;
-    padding-bottom: 10px;
-}
-    #home {
-        height: auto;
-        padding: 5px;
-    }
-
-    .project-container {
-        justify-content: center;
-    }
-
-    .project-card {
-        width: 80%;
-    }
-}
-
-
-@media (min-width: 1600px) {
-
-    .hero h1 {
-        font-size: larger;
-    }
-
-    .project-card {
-        width: 280px;
     }
 
     section {
