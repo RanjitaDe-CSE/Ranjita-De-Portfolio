@@ -6,6 +6,7 @@ This project is a fully responsive Personal Portfolio Website built using HTML a
 
 
 Features:
+
  -Fixed navigation bar with smooth scrolling
 
  -Full-screen responsive layout
