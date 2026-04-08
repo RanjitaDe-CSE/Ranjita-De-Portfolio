@@ -23,6 +23,5 @@ Purpose:
 
 To demonstrate frontend development skills including layout, styling, responsiveness, and interactivity.
 
-Author
-
+Author: 
 Ranjita De
