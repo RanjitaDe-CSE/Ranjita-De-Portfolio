@@ -5,7 +5,6 @@ Overview:
 This project is a fully responsive Personal Portfolio Website built using HTML and CSS. It showcases my profile, skills, and projects in a clean and modern layout. The website is designed to provide a smooth user experience across all devices, including desktops, tablets, and mobile phones.
 
 Features:
-
  -Fixed navigation bar with smooth scrolling
 
  -Full-screen responsive layout
@@ -22,6 +21,7 @@ Features:
 
  -Mobile-friendly design using media queries
 
+
 Technologies Used:
 - HTML5
 - CSS3
@@ -33,4 +33,5 @@ Purpose:
 To demonstrate frontend development skills including layout, styling, responsiveness, and interactivity.
 
 Author: 
+
 Ranjita De
