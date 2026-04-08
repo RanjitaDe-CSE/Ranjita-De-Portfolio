@@ -2,17 +2,18 @@
 Visit Site: https://ranjitade-cse.github.io/Ranjita-De-Portfolio/
 
 Overview: 
-This is a responsive personal portfolio website built using HTML and CSS. It showcases personal details, projects, and a contact form with modern UI design.
+This project is a fully responsive Personal Portfolio Website built using HTML and CSS. It showcases my profile, skills, and projects in a clean and modern layout. The website is designed to provide a smooth user experience across all devices, including desktops, tablets, and mobile phones.
 
-Features:
-- Fixed navigation bar
-- Hero section with call-to-action
-- About section
-- Project showcase
-- Contact form
-- Social media icons
-- Responsive design
-
+🎯 Features:
+ -Fixed navigation bar with smooth scrolling
+ -Full-screen responsive layout
+ -Home section with introduction and call-to-action
+ -About section highlighting skills and background
+ -Projects section displaying work with styled buttons
+ -Contact section with a simple form
+ -Clean UI with proper spacing, alignment, and typography
+ -Mobile-friendly design using media queries
+ 
 Technologies Used:
 - HTML5
 - CSS3
