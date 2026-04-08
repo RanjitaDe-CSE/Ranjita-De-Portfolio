@@ -7,21 +7,21 @@ This project is a fully responsive Personal Portfolio Website built using HTML a
 🎯 Features:
 
  -Fixed navigation bar with smooth scrolling
- 
+
  -Full-screen responsive layout
- 
+
  -Home section with introduction and call-to-action
- 
+
  -About section highlighting skills and background
- 
+
  -Projects section displaying work with styled buttons
- 
+
  -Contact section with a simple form
- 
+
  -Clean UI with proper spacing, alignment, and typography
- 
+
  -Mobile-friendly design using media queries
- 
+
 Technologies Used:
 - HTML5
 - CSS3
