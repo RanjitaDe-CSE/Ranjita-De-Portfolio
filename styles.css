@@ -151,8 +151,9 @@ footer {
 
     section {
         margin: 10px;
+        margin-bottom: 20px;
         padding: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
     .home-content{
         align-items: center;
